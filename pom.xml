@@ -34,10 +34,23 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:hmsonline/dropwizard-spring.git</connection>
-		<developerConnection>scm:git:git@github.com:hmsonline/dropwizard-spring.git</developerConnection>
-		<url>git@github.com:hmsonline/dropwizard-spring.git</url>
+		<connection>scm:git:git@github.com:dhardiker/dropwizard-spring.git</connection>
+		<developerConnection>scm:git:git@github.com:dhardiker/dropwizard-spring.git</developerConnection>
+		<url>git@github.com:dhardiker/dropwizard-spring.git</url>
 	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Internal Releases</name>
+			<url>https://nexus.ops.abundanceoperations.com/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Internal Releases</name>
+			<url>https://nexus.ops.abundanceoperations.com/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<developers>
 		<developer>
@@ -49,6 +62,11 @@
 			<id>boneill42</id>
 			<name>Brian O'Neill</name>
 			<email>bone@alumni.brown.edu</email>
+		</developer>
+		<developer>
+			<id>dhardiker</id>
+			<name>Dan Hardiker</name>
+			<email>dan@hardiker.co.uk</email>
 		</developer>
 	</developers>
 
