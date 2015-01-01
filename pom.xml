@@ -41,12 +41,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
+			<id>abundance-nexus</id>
 			<name>Internal Releases</name>
 			<url>https://nexus.ops.abundanceoperations.com/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus</id>
+			<id>abundance-nexus</id>
 			<name>Internal Releases</name>
 			<url>https://nexus.ops.abundanceoperations.com/content/repositories/snapshots</url>
 		</snapshotRepository>
